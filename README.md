@@ -8,7 +8,7 @@ This project integrates two main components: **Lights-ASD** and **Opal23**. The 
 
 ```
 /MonProjet
-├── /image_frameworks
+├── /images_framework
 │   ├── realtime.py               # Script for capturing video and audio, and calculating active speaker probabilities
 │   ├── /demo                     # Folder containing the results of the realtime.py script
 │   │   ├── scores.pckl           # Pickle file storing the active speaker probability scores
@@ -31,7 +31,7 @@ This project integrates two main components: **Lights-ASD** and **Opal23**. The 
    - After running `realtime.py`, the active speaker scores are saved in `scores.pckl`. The main script processes these scores, calculates the average for each detected individual, and selects the video with the highest score.
 
 3. **Head Pose Estimation**:
-   - The selected video is then passed to the `headpose.py` script in the `Opal23` folder to determine the yaw angle of the active speaker's head.
+   - The selected video is then passed to the `headpose.py` script in the `images_framework` folder to determine the yaw angle of the active speaker's head.
 
 ### Usage
 
