@@ -33,14 +33,6 @@ This project integrates two main components: **Lights-ASD** and **Opal23**. The 
 3. **Head Pose Estimation**:
    - The selected video is then passed to the `headpose.py` script in the `Opal23` folder to determine the yaw angle of the active speaker's head.
 
-### Requirements
-
-- Python 3.x
-- Dependencies:
-  - NumPy
-  - OpenCV
-  - [List other dependencies here]
-
 ### Usage
 
 To run the full pipeline:
@@ -54,5 +46,3 @@ To run the full pipeline:
    ```bash
    python main.py
    ```
-
-### Next Steps
