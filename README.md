@@ -8,7 +8,7 @@ This project integrates two main components: **Lights-ASD** and **Opal23**. The 
 
 ```
 /MonProjet
-├── /Lights-ASD
+├── /image_frameworks
 │   ├── realtime.py               # Script for capturing video and audio, and calculating active speaker probabilities
 │   ├── /demo                     # Folder containing the results of the realtime.py script
 │   │   ├── scores.pckl           # Pickle file storing the active speaker probability scores
